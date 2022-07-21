@@ -6,3 +6,5 @@
 <center><img src="https://blog.openclassrooms.com/es/wp-content/uploads/sites/5/2017/09/AdobeStock_126016889apaisado.jpg" alt="drawing" width="380"/></center>
 
 [Semana 1](Weak/Intro.md)
+
+[Semana 2](Weak/Intro.md)

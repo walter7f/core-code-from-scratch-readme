@@ -37,3 +37,35 @@ cantidad = Input="inserte cantidad total de dolares "
 resultado= cantidad / 1BTC
 
 print resultado 
+
+## <b><font size="6"> 4. Lenguajes de alto y bajo nivel </font><b>
+| |<img src="https://edteam-media.s3.amazonaws.com/blogs/original/0cc7e2f7-1821-4603-88d6-7d7f271707a5.png" alt="drawing" width="300"/> | |
+|-|-|-|
+|Cuando hablamos de un lenguaje de alto nivel nos referimos al tipo de lenguaje de programación que no expresa los algoritmos teniendo en cuenta la capacidad que tienen las máquinas para ejecutar órdenes, sino al que se utiliza teniendo en cuenta las capacidades cognitivas de los seres humanos.|Un lenguaje de programación de bajo nivel, es aquel en el que sus instrucciones ejercen un control directo sobre el hardware y por lo tanto están condicionados por la estructura física de las computadoras que lo soportan, tiene poca abstraccion al lenguaje humano, practicamente es lenguaje maquina. |
+
+
+# <b> <font color="yellow">Desafio Miercoles </font> </b>
+## <b><font color="orange">1. Convertir tu fecha de nacimiento en Binario </font></b>
+
+Fecha 03/12/1998  (Decimal)
+
+- 2^0=1        
+- 2^1=2         
+- 2^2=4
+- 2^3=8
+- 2^4=16
+- 2^5=32
+- 2^6=64
+- 2^7=128
+- 2^8=256
+- 2^9=512
+- 2^10=1024
+- 2^11=2048
+
+|3= 2+1  =  11|
+|-|
+|12=8+4 = 1100|
+|(1998-1024 = 974) -- (974-512=462) -- (462-256=206) -- (206-128=78) -- (78-64=14 )-- (14-8=6) -- (6-4=2) -- (2-2 = 0) ="11111001110"|
+|Fecha 11 / 1100 / 11111001110 (Binario)|
+
+

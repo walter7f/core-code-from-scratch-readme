@@ -5,7 +5,7 @@ IF es una estructura de control utilizada para tomar decisiones. Es un condicion
 
 <img src="https://miro.medium.com/max/906/1*WFDgMcVTqQ4JmZQdsbs7lQ.png" alt="drawing" width="370"/>
 
-## <b>Funcion  for  </b>
+## <b>Ciclo   for  </b>
 El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces. De entre todos los bucles, el FOR se suele utilizar cuando sabemos seguro el número de veces que queremos que se ejecute. La sintaxis del bucle for se muestra a continuación.
 El bucle FOR tiene tres partes incluidas entre los paréntesis, que nos sirven para definir cómo deseamos que se realicen las repeticiones. La primera parte es la inicialización, que se ejecuta solamente al comenzar la primera iteración del bucle. En esta parte se suele colocar la variable que utilizaremos para llevar la cuenta de las veces que se ejecuta el bucle.
 
@@ -15,9 +15,9 @@ Por último tenemos la actualización, que sirve para indicar los cambios que qu
 
 Después del for se colocan las sentencias que queremos que se ejecuten en cada iteración, acotadas entre llaves.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gxKPglf3Q30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="http://estilow3b.com/wp-content/uploads/2021/05/10-JavaScript-Bucles-Declaracion-continue.png"  alt="drawing" width="320"/> 
 
-## <b>Funcion  While   </b>
+## <b>Ciclo  While   </b>
 El bucle while es muy similar al bucle for. While es la palabra inglesa para ‘mientras’ y cuando la incluimos en nuestro código la podríamos traducir al castellano por: “mientras se cumpla una condición, ejecuta las siguientes instrucciones". 
 
 <img src="https://www.aulafacil.com/uploads/cursos/451/editor/15-1.png" alt="drawing" width="370"/>

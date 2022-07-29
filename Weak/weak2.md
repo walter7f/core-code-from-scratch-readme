@@ -27,3 +27,70 @@ El bucle while es muy similar al bucle for. While es la palabra inglesa para ‘
 Una función en JavaScript es similar a un procedimiento — un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida.
 
 <img src="https://miro.medium.com/max/1400/1*Pf-f06mfFnteJeSk9a5cqA.png" alt="drawing" width="400"/>
+
+<br>
+
+# <b> Desafio Martes<b>
+## Ejercicio de Multiplicacion
+
+Ejercicio:
+
+Resuelve la multiplicacion
+
+```js
+function multiply(a, b){
+  a * b
+}
+```
+Solucion
+
+```js
+function multiply(a, b){
+  let multiplicacion= a * b;
+  return multiplicacion;
+}
+```
+
+## Ejercicio ASCII Total 
+Ejercicio:
+
+Se le dará una cadena y tendrá que devolver la suma de todos los caracteres como un int. La función debería poder manejar todos los caracteres ASCII.
+```js
+function uniTotal (string) {
+// total up dem unicodes!
+}
+```
+Solucion
+```js
+function uniTotal (string) {
+  let sumaCaracter=0;  // Contador iniciado a 0
+  // iniciamos un for 
+  // con la variable cadena contamos los string 
+  for( let i = 0, cadena= string.length; i < cadena; i++ ){
+    // i cuenta cada letra del string hasta que sea menor que la cadena 
+    // recordar que contamos desde 0 cada posicion (i= i-1)
+    sumaCaracter += string[i].charCodeAt(); // en lista donde i guarda los valores del caracter 
+    // char code  convierte todos los valores en codigo asii
+  }
+  return sumaCaracter;
+  // retorna la suma de los caractes 
+}
+```
+
+## <b>Desafio Miercoles</b>
+Char From ASCII Value
+
+Ejercicio:
+
+Escriba una función get_char()/ getChar()que tome un número y devuelva el carácter ASCII correspondiente a ese valor.
+```js
+function getChar(c){
+  // ...
+}
+```
+```js
+function getChar(c){
+  // solo tomamos el valor de la variable la y la retornamos  con String.fromCharcode()
+  return String.fromCharCode(c)
+}
+```

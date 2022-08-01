@@ -77,8 +77,8 @@ function uniTotal (string) {
 }
 ```
 
-## <b>Desafio Miercoles</b>
-Char From ASCII Value
+# <b>Desafio Miercoles</b>
+## Char From ASCII Value
 
 Ejercicio:
 
@@ -94,3 +94,47 @@ function getChar(c){
   return String.fromCharCode(c)
 }
 ```
+## Adicion en binario 
+
+Ejercicio
+
+Debe de presentar la suma de dos numeros decimales y presetar la suma en decimal y binario 
+
+```js
+function addBinary(a,b) {
+  //return retorna la suna de a+b 
+  return (a + b).toString(2);
+  //  (a + b).toString(2) retorna la convercion en binario de la suma  
+
+}
+```
+
+## Calificación final del estudiante
+
+Ejercicio 
+Cree una función notaFinal, que calcule la nota final de un estudiante en función de dos parámetros: una nota para el examen y una cantidad de proyectos completados.
+
+Esta función debe tomar dos argumentos: examen - calificación del examen (de 0 a 100); proyectos - número de proyectos completados (de 0 en adelante);
+
+Esta función debería devolver un número (calificación final). Hay cuatro tipos de calificaciones finales:
+
+```js
+function finalGrade (exam, projects) {
+  let resultado = 0;
+  if (exam > 90 || projects > 10) {
+    resultado  = 100;
+  } else if (exam > 75 && projects >= 5) {
+    resultado  = 90;
+  } else if (exam > 50 && projects >= 2) {
+    resultado  = 75;
+  } else {
+    resultado =0;
+  }
+  return resultado ;
+}
+
+```
+
+
+
+# <b>Desafio Jueves </b>

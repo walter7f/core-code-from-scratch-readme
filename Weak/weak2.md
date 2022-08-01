@@ -138,3 +138,101 @@ function finalGrade (exam, projects) {
 
 
 # <b>Desafio Jueves </b>
+## <b>Eliminar todos los signos de exclamación del final de la oración</b>
+
+Ejercicio 
+
+Elimina todos los signos de exclamación del final de la oración.
+
+Ejemplos
+remove("Hi!") === "Hi"
+remove("Hi!!!") === "Hi"
+
+Solucion
+
+```js
+
+function remove (string) {  
+  
+  let cadena= "";
+  // declaraamos cadena como variable vacia 
+  let posicion= string.length - 1;
+  // contamos las posciciones de string menos 1 por que iniciamos desde 0
+  for (i=posicion; i>0; i--){
+    //rrecoremos desde la posicon final hasta 0
+    if (string[i] !== "!"){
+      // condicionamos que en la lista de i los strings sean diferentes de "!"
+      cadena = string.substring(0, i +1);
+      // substring debuelve la cadena desde 0 hasta la posicion -1 por eso le colocamaos +1
+      //para que lea correctamente el recorrido 
+    break;
+      // rompe el ciclp una vez compretado el ciclo 
+    
+  }
+}
+return cadena;
+}
+
+```
+
+## Eliminacion de Vocales 
+
+<br>
+Ejercicio
+
+Cree una función llamada shortcutpara eliminar las vocales minúsculasa ( , e, i, o, u) en una cadena determinada.
+
+Solucion 
+
+
+```js
+
+function shortcut (string) {
+  // declaramos una cadena vacia 
+  let texto = "";
+  for (i=0; i< string.length; i++){
+    //recorremos el string 
+    if ( string[i]== "a" || string [i]=="e" || string[i]=="i" ||string [i]=="o" || string[i]=="u"){
+      //con las condicones finalizamos las vocales y dejamos continuar 
+      continue;
+    }
+    texto= texto+ string[i];
+    // contactemanos la cadeana vaica pas el resultado de las listas
+    }
+    return texto;
+}
+```
+
+<br>
+
+## ¡Piedra Papel tijeras!
+
+Ejercicio
+
+Piedra Papel tijeras
+
+¡Vamos a jugar! ¡Tienes que devolver qué jugador ganó! En caso de empate devolución Draw!.
+
+Solucion 
+
+```js 
+const rps = (p1, p2) => {
+  if (p1===p2)
+    return "Draw!";
+  
+  if (p1 === "rock" && p2 === "scissors")
+    return "Player 1 won!";
+  
+  if (p1 === "scissors" && p2 ==="paper")
+    return"Player 1 won!";
+  
+  if (p1 === "paper" && p2 === "rock")
+    return "Player 1 won!";
+  
+    else 
+    return "Player 2 won!";
+  
+};
+```
+
+## Ejercicio de Bugger persistente

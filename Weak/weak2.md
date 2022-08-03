@@ -236,3 +236,30 @@ const rps = (p1, p2) => {
 ```
 
 ## Ejercicio de Bugger persistente
+
+Ejercicio 
+
+Escribe una función, persistence, que tome un parámetro positivo numy devuelva su persistencia multiplicativa, que es el número de veces que debes multiplicar los dígitos numhasta llegar a un solo dígito.
+
+Solucion
+```js 
+function persistence(num) {
+  var numString = num.toString();
+  var numDigitsCount = numString.length;
+  var numMultCount = 0;
+  var numMultResult = 1;
+  
+  while(numDigitsCount > 1) {
+    numMultResult = 1;
+    for(var i = 0; i <= numString.length-1; i++) {
+      numMultResult = numMultResult * Number(numString[i]);
+    }
+    num = numMultResult;
+    numMultCount = numMultCount + 1;
+    numString = num.toString();
+    numDigitsCount = numString.length;
+  }
+  
+  return numMultCount;
+}
+```

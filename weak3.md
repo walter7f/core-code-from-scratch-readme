@@ -90,3 +90,21 @@ function order(words){
 }
 ```
 # Desafio Martes 
+```js
+function contadorPalabras(arrayOfWords) {
+  const wSort = arrayOfWords.sort();
+  const result= [];
+  let lastWordCheck = '';
+  let lastResultPos = -1;
+  for(let i = 0; i < wSort.length; i++) {
+    if(wSort[i] !== lastWordCheck) {
+      result.push([wSort[i], 1]);
+      lastResultPos++;
+    } else {
+      result[lastResultPos][1] = result[lastResultPos][1] + 1;
+    }
+    lastWordCheck = wSort[i];
+  }
+  return result;
+}
+```

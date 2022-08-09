@@ -90,21 +90,54 @@ function order(words){
 }
 ```
 # Desafio Martes 
+## Latín de cerdo simple 
+
+Ejercicio:
+
+Mueva la primera letra de cada palabra al final de la misma, luego agregue "ay" al final de la palabra. Deje los signos de puntuación intactos.
+
+pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
+
+pigIt('Hello world !');     // elloHay orldway !
+
+## Solucion
+```js 
+function pigIt(str) {
+  // definimos los signos que no queremos alterar 
+  let signos = ['!', '¡', '?', '¿', '.', ',', ':', ';'];
+  str = str.split(' ');
+  //separamos el string por espacios 
+  for (let i = 0; i < str.length; i++) {
+    // recorremos nuesta cadena  omitiendo la primera letra de la mismas 
+    if (signos.indexOf(str[i]) >= 0) continue;
+    str[i] = str[i].slice(1) + str[i].slice(0, 1) + 'ay';
+  }
+  return str.join(' ');
+}
+
+```
+## Contador de  duplicados 
+Cuente el número de duplicados
+
+Escriba una función que devuelva el recuento de caracteres alfabéticos y dígitos numéricos distintos que no distinguen entre mayúsculas y minúsculas que aparecen más de una vez en la cadena de entrada. Se puede suponer que la cadena de entrada contiene solo letras (tanto mayúsculas como minúsculas) y dígitos numéricos.
+
 ```js
-function contadorPalabras(arrayOfWords) {
-  const wSort = arrayOfWords.sort();
-  const result= [];
-  let lastWordCheck = '';
-  let lastResultPos = -1;
-  for(let i = 0; i < wSort.length; i++) {
-    if(wSort[i] !== lastWordCheck) {
-      result.push([wSort[i], 1]);
-      lastResultPos++;
-    } else {
-      result[lastResultPos][1] = result[lastResultPos][1] + 1;
+
+function duplicateCount(text) {
+  // convertimos todos los carracteres a minuscula,separamaos y ordenamos 
+  let textArray = text.toLowerCase().split('').sort();
+  let i = 0,
+    result = 0,
+    lastIndexOfChar = 0;
+  while (textArray.length) {
+    lastIndexOfChar = textArray.lastIndexOf(textArray[i]);
+    if (lastIndexOfChar !== i) {
+      i = lastIndexOfChar;
+      result++;
     }
-    lastWordCheck = wSort[i];
+    textArray = textArray.slice(++i);
+    i = 0;
   }
   return result;
-}
+
 ```

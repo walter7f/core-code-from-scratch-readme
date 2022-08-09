@@ -8,3 +8,5 @@
 [Semana 1](Weak/Intro.md)
 
 [Semana 2](Weak/weak2.md)
+
+[Semana 3](Weak/weak3.md)

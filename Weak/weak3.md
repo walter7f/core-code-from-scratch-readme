@@ -141,3 +141,25 @@ function duplicateCount(text) {
   return result;
 
 ```
+# Desafio Jueves
+## 
+1. ¿Quién eres?
+
+2. ¿Qué antecedentes tienes?
+
+3. ¿Quién quieres ser?
+
+4. ¿Qué quieres hacer?
+
+5. ¿Cuáles son los valores y principios fundamentales que rigen su carácter y contribuciones?
+
+Soy Walter Diaz, me desarrolle en C++ de forma basica, quiero convetirme en uno de los mejores progamadores y desarroladores, no solo en programamacion si no tambien en la sistemas tecnologicos como robotica, me gusta trabajar en Amanzon y NASA. Soy alguien muy decidido y curioso con ganas de aprender para poder lograr mis objetivos.
+
+1. Who are you?
+2. What background do you have?
+3. Who do you want to be?
+4. What do you want to do?
+5. What are the core values and principles that govern your character and contributions?
+
+I am Walter Diaz, I developed in C++ in a basic way, I want to become one of the best programmers and developers, not only in programming but also in technological systems such as robotics, I like to work at Amazon and NASA. I am someone very determined and curious with a desire to learn in order to achieve my goals.
+

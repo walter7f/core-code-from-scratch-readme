@@ -141,6 +141,73 @@ function duplicateCount(text) {
   return result;
 
 ```
+
+## Decodificador de Codigo Morse 
+Ejercicio
+
+```js
+decodeMorse = function (morseCode) {
+  morseCode = morseCode.replace(/   /g, '#');
+  let decodedCode = '';
+  let tempWordToDecode = '';
+  for (let i = 0, lenght = morseCode.length; i < lenght; i++) {
+    if (morseCode[i] === ' ') {
+      decodedCode += MORSE_CODE[tempWordToDecode] || '';
+      tempWordToDecode = '';
+    } else if (morseCode[i] === '#') {
+      decodedCode += `${MORSE_CODE[tempWordToDecode] || ''} `;
+      tempWordToDecode = '';
+    } else {
+      tempWordToDecode += morseCode[i];
+    }
+  }
+  decodedCode += MORSE_CODE[tempWordToDecode] || '';
+  return decodedCode.trim();
+};
+```
+
+## Parentesis Validos 
+Ejercicio 
+
+Escribe una función que tome una cadena de paréntesis y determine si el orden de los paréntesis es válido. La función debería regresar truesi la cadena es válida y falsesi no es válida.
+
+## Solucion
+```js
+function validParentheses(parens) {
+  let resp = 0;
+  for (let i = 0; i < parens.length; i++) {
+    if (parens[i] === ')') 
+      resp--;
+    if (parens[i] === '(') 
+      resp++;
+    if (resp < 0) 
+      return false;
+  }
+  return resp== 0;
+}
+```
+## Convertir cadena a caja de camello
+Ejercicio
+
+Complete el método/función para que convierta las palabras delimitadas por guiones/guiones bajos en mayúsculas y minúsculas. La primera palabra dentro de la salida debe estar en mayúsculas solo si la palabra original estaba en mayúsculas (conocido como Upper Camel Case, también conocido como caso Pascal).
+## Solucion 
+
+```js
+function toCamelCase(str) {
+  let resultado= '';
+  for (let i = 0; i < str.length; i++) {
+    if (i != 0 && (str[i-1] === '-' || str[i-1] === '_') ){
+        
+        //continue;
+        resultado += str[i].toUpperCase();
+    } else if (str[i] != '-' && str[i] != '_'){
+      resultado += str[i];
+    }
+  }
+  return resultado;
+}
+```
+
 # Desafio Jueves
 ## 
 1. ¿Quién eres?

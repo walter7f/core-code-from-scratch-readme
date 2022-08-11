@@ -207,9 +207,99 @@ function toCamelCase(str) {
   return resultado;
 }
 ```
+## Único en orden
+
+Ejercicio
+
+mplemente la función unique_in_order que toma como argumento una secuencia y devuelve una lista de elementos sin ningún elemento con el mismo valor uno al lado del otro y conservando el orden original de los elementos.
+
+Por ejemplo:
+
+uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
+uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
+uniqueInOrder([1,2,2,3,3])       == [1,2,3]
+
+## Solucion 
+```js
+var uniqueInOrder=function(iterable){
+  let array=[];
+  let indice ='';
+  for (let i=0; i<iterable.length; i++){
+    if(iterable[i] !== indice){
+      indice = iterable[i];
+      array.push(indice);
+    }
+  }
+  return array;
+}
+```
 
 # Desafio Jueves
-## 
+
+
+## Doblar una Matriz
+
+
+Ejercicio
+
+En este kata, debe escribir un método que doble una matriz determinada de números enteros por el medio x veces.
+
+```js
+function foldArray(array, runs) {
+  if (array.length === 1) return array;
+  let output = [...array];
+  let aheadPosition = 0;
+  while (runs) {
+    if (output.length === 1) return output;
+    output = Array.from(
+      { length: Math.round(output.length / 2) },
+      (v) => 0
+    ).map((v, i) => {
+      aheadPosition = output.length - (i + 1);
+      if (aheadPosition === i) return output[i];
+      return output[i] + output[aheadPosition];
+    });
+    runs--;
+  }
+  return output;
+}
+
+
+```
+##  ¡Cifra Esto¡
+
+Ejercicio
+
+¡Cifra esto!
+
+¡Quieres crear mensajes secretos que puedan ser descifrados por Descifrar esto! kata. Aquí están las condiciones:
+
+Su mensaje es una cadena que contiene palabras separadas por espacios.
+Debe encriptar cada palabra en el mensaje usando las siguientes reglas:
+La primera letra debe convertirse a su código ASCII.
+La segunda letra debe ser intercambiada con la última letra
+Manteniéndolo simple: no hay caracteres especiales en la entrada.
+
+## Solucion
+```js
+function encryptedWord(word) {
+  if (word.length == 1) return word.charCodeAt();
+  if (word.length == 2) return `${word.charCodeAt(0)}${word[1]}`;
+  return `${word.charCodeAt(0)}${word[word.length - 1]}${word.slice(
+    2,
+    word.length - 1
+  )}${word[1]}`;
+}
+
+var encryptThis = function (text) {
+  return text.split(' ').map(encryptedWord).join(' ');
+}
+
+```
+
+## Desafio Principal 
+
+
 1. ¿Quién eres?
 
 2. ¿Qué antecedentes tienes?

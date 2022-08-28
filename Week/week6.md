@@ -73,3 +73,112 @@ console.log(employeeStatus);
 
 
 ```
+## Ejercicio 2
+```ts
+export type User ={name:string, age:number, occupation:string} ;
+
+export const users: User[] = [
+    {
+        name: 'Max Mustermann',
+        age: 25,
+        occupation: 'Chimney sweep'
+    },
+    {
+        name: 'Kate Müller',
+        age: 23,
+        occupation: 'Astronaut'
+    }
+];
+
+export function logPerson(user:User) {
+    console.log(` - ${user.name}, ${user.age}`);
+}
+
+console.log('Users:');
+users.forEach(logPerson);
+
+```
+## Ejercicio 3
+```ts
+interface User {
+    name: string;
+    age: number;
+    occupation: string;
+}
+
+interface Admin {
+    name: string;
+    age: number;
+    role: string;
+}
+
+export type Person = User | Admin;
+
+export const persons: Person[] /* <- Person[] */ = [
+    {
+        name: 'Max Mustermann',
+        age: 25,
+        occupation: 'Chimney sweep'
+    },
+    {
+        name: 'Jane Doe',
+        age: 32,
+        role: 'Administrator'
+    },
+    {
+        name: 'Kate Müller',
+        age: 23,
+        occupation: 'Astronaut'
+    },
+    {
+        name: 'Bruce Willis',
+        age: 64,
+        role: 'World saver'
+    }
+];
+
+export function logPerson(user: Person) {
+    console.log(` - ${user.name}, ${user.age}`);
+}
+
+persons.forEach(logPerson);
+```
+
+# Desafio Martes 
+## Ejercicio 1
+Suma de cuadrados
+
+``` ts 
+export function squareSum(numbers: number[]): number {
+  let resultado:number;
+  let initialValue=0;// valor de inicial o valor previo
+  resultado = numbers.reduce(
+    // valor previo 0 + valor actual al cuadrado 
+    (previousValue, currentValue) => previousValue+ currentValue*currentValue,
+    initialValue
+  );
+
+
+  
+    return resultado;
+}
+```
+## Ejercicio 2
+Un lobo con piel de cordero 
+
+```ts
+export function warnTheSheep(queue: string[]): string | number {
+    let ver;
+    let contar = queue.length;
+    let alerta ;
+    let posicion;
+    ver= queue.indexOf("wolf")+1;
+    posicion= contar-ver;
+    if (ver == contar){
+        return"Pls go away and stop eating my sheep" 
+    }else{
+        return "Oi! Sheep number "+ posicion+"!" +" You are about to be eaten by a wolf!"
+    }
+   
+  }
+```

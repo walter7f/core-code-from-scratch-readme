@@ -170,7 +170,7 @@ Un lobo con piel de cordero
 export function warnTheSheep(queue: string[]): string | number {
     let ver;
     let contar = queue.length;
-    let alerta ;
+    //let alerta ;
     let posicion;
     ver= queue.indexOf("wolf")+1;
     posicion= contar-ver;
@@ -181,4 +181,36 @@ export function warnTheSheep(queue: string[]): string | number {
     }
    
   }
+```
+#
+# <b>Desafio Miercoles </b>
+## Una regla de divisibilidad por 13
+const rem = [1, 10, 9, 12, 3, 4];
+
+```js
+export function process(n: number): number {
+  let reversedNumber: string[] = n.toString().split('').reverse();
+  let index = 0;
+  let result = reversedNumber.reduce((total: number, digit: string) => {
+    if (index > 5) index = 0;
+    return total + Number(digit) * rem[index++];
+  }, 0);
+  if (result === n) return result;
+  return process(result);
+}
+
+export function thirt(n: number): number {
+  return process(n);
+}
+```
+## Jugando con Dígitos 
+```js
+xport class G964 {
+  public static digPow = (n: number, p: number) => {
+    let especialN = n.toString().split('').map(Number).reduce((prev: number, curr: number) => prev + Math.pow(curr, p++), 0);
+    if (especialN % n === 0) return especialN / n;
+    return -1;
+  };
+}
+
 ```

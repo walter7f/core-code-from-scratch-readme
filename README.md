@@ -15,4 +15,6 @@
 
 [Semana 5](Week/week5.md)
 
-[Semana 6]()
+[Semana 6](Week/week6.md)
+
+[Semana 7]()

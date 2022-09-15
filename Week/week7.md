@@ -89,3 +89,47 @@ Funcionamiento de:
 
 #
 # <b>Desafio Martes </b>
+
+--- estudio 
+
+---------
+
+# <b>Desafio Miercoles </b>
+## Ejercicio Build Tower
+```ts
+export const towerBuilder = (nFloors: number): string[] => {
+    if (nFloors === 1) return ['*'];
+    const torre: string[] = [];
+    for (let i = 1; i <= nFloors; i++) {
+      torre.push(
+        `${' '.repeat(nFloors - i)}${'*'.repeat(2 * i - 1)}${' '.repeat(
+          nFloors - i)}`
+      );
+    }
+  
+    return torre;
+  }
+  ```
+
+  ---
+  ## Ejercicio  Meeting 
+  ```ts
+
+  export function meeting(s: string): string {
+    let order=s.toUpperCase().split(';')
+      .sort((a: string, b: string) => {
+        const [aNombre, aApellido] = a.split(':');
+        const [bNombre, bApellido] = b.split(':');
+        if (aApellido === bApellido) {
+          return aNombre > bNombre ? 1 : bNombre > aNombre ? -1 : 0;
+        }
+        return aApellido > bApellido ? 1 : bApellido > aApellido ? -1 : 0;
+      })
+      .map((NombreCompleto: string) => {
+        const [Nombre, Apellido] = NombreCompleto.split(':');
+        return `(${Apellido}, ${Nombre})`;
+      })
+      .join('');
+    return order;
+  }
+```

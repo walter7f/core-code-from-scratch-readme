@@ -19,6 +19,6 @@
 
 [Semana 7](Week/week7.md)
 
-[Semana 8]()
+[Semana 8](Week/week8.md)
 
 [Semana 9]()

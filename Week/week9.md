@@ -6,7 +6,7 @@ Descripcion del ejercicio
 
 [Jugemos]()
 
-# <b>Wee Challenges "Tuesday"</b>
+# <b>Week Challenges "Tuesday"</b>
 ## <b>Todo lo que necesitas saber de TypeScript</b>
 
 TypeScript es un lenguaje de programación desarrollado  y mantenido por Microsoft, es un superconjunto estricto de JavaScript, TypeScript agrega un sistema de tipos robustos a JavaScript, eso hace que se tencten los errores logicos del codigo antes de su ejecucion, en JavaScript se detenctaban los erros cuando estas ya estaban siendo ejecutados por los usuarios, y esto era un gran problema ya que JavaScript es muy flexible, mas que Python por ejemplo, eso hacia que JavaScript accediera a cualquier propiedad ya sea existente o no. TypeScript viene a elliminar este tipo de errores, implementando un sistema de de tipados rubusto.

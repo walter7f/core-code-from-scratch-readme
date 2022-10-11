@@ -45,5 +45,6 @@ En el interior operations.js implemente dos funciones, una para la operación de
 3. Cree un nuevo módulo, asígnele el nombre:main.js
 Importe las funciones implementadas en operations.js y utilícelas de cualquier forma en main.js.
 
-## [Solucion :)](Week/cod/EjercicioNode1)
+## [Solucion :)]()
+
 

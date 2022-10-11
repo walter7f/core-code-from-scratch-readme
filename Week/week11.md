@@ -22,6 +22,19 @@
 |-|-|
 |1. ¿Qué es un módulo Javascript?|Un módulo es solo un archivo. Un script es un módulo. Tan simple como eso. Los módulos pueden cargarse entre sí y usar directivas especiales export e import para intercambiar funcionalidades, llamar a funciones de un módulo desde otro:|
 |2. ¿Por qué son necesarios los módulos de Javascript?|Sirve para intercambier funcionalidades y para reutilizar el codigo al usar los módulos de JS puedes evitar errores al incluir archivos en un orden diferente y además el código de ve más ordenado.|
-|3. ¿Qué estándares de módulos están disponibles en Node.JS?||
-|4. ¿Cuáles son las diferencias entre los módulos ESModules y CommonJS?||
+|3. ¿Qué estándares de módulos están disponibles en Node.JS?| CommonJS (CJS), sistema por defecto de Node.js y ECMAScript Modules o (ESM), sistema oficial de JavaScript para la gestion de módulos|
+|4. ¿Cuáles son las diferencias entre los módulos ESModules y CommonJS?|CommonJS sólo permite cargar módulos de forma síncrona, mientras que ESM permite carga síncrona y asíncrona. NodeJS permite hacer require() de bare imports utilizando npm mientras que ESM puede hacerlo mediante import maps, un fichero .json que incluye la URL de referencias a los nombres de los paquetes|
 |5. ¿Qué tipos de módulos existen en Node.JS?|Node.js incluye tres tipos de módulos (Módulos centrales, Módulos locales, Módulos de terceros)|
+
+
+
+[Colegas de trabajo](https://github.com/edyrrg)
+
+[Video de Referncia](https://www.youtube.com/watch?v=29iYdru2KUg)
+
+
+----
+
+## Sistema de módulos Node.JS - Práctica
+
+

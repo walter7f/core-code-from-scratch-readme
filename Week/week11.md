@@ -73,12 +73,12 @@ La arquitectura cliente-servidor es un modelo de diseño de software. Acá, las 
 ----
 
 ## Comprensión básica de las API
-
 |||
 |-|-|
-|||
-|||
-|||
-|||
-|||
-|||
+|1. ¿Qué es una API?|Es una interfaz de programacion que permite la comunicacion de entra las aplicaciones y bases de datos para ofrecer una respuesta a un servicio solicitado.|
+|2. ¿Qué es un Protocolo?|Un protocolo son una serie de pasos o proceso que se siguen para determinada tarea|
+|3. ¿El término API solo es aplicable a la comunicación de programas a través de Internet?|No, de hecho se utiliza en casi todos los aspectos de la vida diaria, hacemos uso de ella sin darnos cuenta.|
+|4. ¿Por qué es importante la comunicación estructurada entre dos programas?|Para tener una perfecta organizacion de la informacion y tambien para tener una mayor seguriad en el momento de navegar en la web. |
+|° ¿Los humanos usamos API cuando nos comunicamos sin tecnología?|Si, cuando hacemos alguna solicitud de algun servicio, interactuamos con un mediador que nos proporciona informacion referente a lo que solicitamos.|
+|5. ¿Es una API solo otro programa o un estándar?||
+|6. ¿Conoces alguna API? ¿Puede enumerar al menos 5 ejemplos de API?||

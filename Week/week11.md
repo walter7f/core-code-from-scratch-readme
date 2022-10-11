@@ -45,6 +45,6 @@ En el interior operations.js implemente dos funciones, una para la operación de
 3. Cree un nuevo módulo, asígnele el nombre:main.js
 Importe las funciones implementadas en operations.js y utilícelas de cualquier forma en main.js.
 
-## [Solucion :)](https://github.dev/walter7f/core-code-from-scratch-readme/blob/main/cod/EjercicioNode1)
+## [Solucion :)](https://github.com/walter7f/core-code-from-scratch-readme/tree/main/cod/EjercicioNode1)
 
 

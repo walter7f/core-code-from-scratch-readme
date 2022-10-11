@@ -37,4 +37,13 @@
 
 ## Sistema de módulos Node.JS - Práctica
 
+Descripcion 
+
+1. Cree un nuevo proyecto Node.JS, asígnele el nombre modules.
+2. Cree un nuevo módulo, asígnele el nombre:operations.js
+En el interior operations.js implemente dos funciones, una para la operación de suma y otra para la operación de resta.
+3. Cree un nuevo módulo, asígnele el nombre:main.js
+Importe las funciones implementadas en operations.js y utilícelas de cualquier forma en main.js.
+
+## [Solucion :)](Week/cod/EjercicioNode1)
 

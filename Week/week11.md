@@ -47,4 +47,20 @@ Importe las funciones implementadas en operations.js y utilícelas de cualquier 
 
 ## [Solucion :)](https://github.com/walter7f/core-code-from-scratch-readme/tree/main/cod/EjercicioNode1)
 
+----
+## Modelo de cliente-servidor 
+Descripcion 
 
+La arquitectura cliente-servidor es un modelo de diseño de software. Acá, las tareas se reparten entre los proveedores de recursos o servicios, llamados servidores, y los demandantes, llamados clientes.
+<img src="https://miro.medium.com/max/640/0*NcDESRONCPqRBSaW">
+
+|Pregunta|Descripción |
+|-|-|
+|1. ¿Qué es un servidor?|Un servidor es una aplicación que recibe los datos utilizando los mismos protocolos que se usaron para enviarlos.|
+|2. ¿Qué es un Cliente?|Cualquier dispositivo que puede recibir servicios|
+|3. ¿Un servidor es solo otra computadora física?|Aun que si pueden operar como servidores, es preferible que sean computadoras de proposito espesifico que funcionen como servidor.|
+|° ¿Por qué nos referimos a cierta clase de aplicaciones como Servidores?|Colabora con el servidor web para ofrecer una respuesta dinámica y personalizada a una solicitud de cliente.|
+|° ¿Cuál es la diferencia?|Una de ellas solo emiten solicitudes y la otra almacena y manda una respuesta a esa solicitud.|
+|4. ¿Existe alguna similitud entre la comunicación humana y el modelo cliente-servidor?|Si, es como el servicio al cliente, pides informacion y recibes una respuesta ya sea que exista o no lo que pidas.|
+|5. ¿El modelo cliente-servidor es aplicable sólo a la Web?|No, se aplica a otros modelos |
+| °¿Puedes mencionar algún otro ejemplo de este modelo fuera de la Web?|Telecomunicaciones |

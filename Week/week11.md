@@ -64,3 +64,21 @@ La arquitectura cliente-servidor es un modelo de diseño de software. Acá, las 
 |4. ¿Existe alguna similitud entre la comunicación humana y el modelo cliente-servidor?|Si, es como el servicio al cliente, pides informacion y recibes una respuesta ya sea que exista o no lo que pidas.|
 |5. ¿El modelo cliente-servidor es aplicable sólo a la Web?|No, se aplica a otros modelos |
 | °¿Puedes mencionar algún otro ejemplo de este modelo fuera de la Web?|Telecomunicaciones |
+
+---
+# <b>Week Challenges "Wendnesday"</b>
+
+## <b>Ejercicios de Apredendizaje</b>
+
+----
+
+## Comprensión básica de las API
+
+|||
+|-|-|
+|||
+|||
+|||
+|||
+|||
+|||

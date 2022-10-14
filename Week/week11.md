@@ -65,8 +65,13 @@ La arquitectura cliente-servidor es un modelo de diseño de software. Acá, las 
 |5. ¿El modelo cliente-servidor es aplicable sólo a la Web?|No, se aplica a otros modelos |
 | °¿Puedes mencionar algún otro ejemplo de este modelo fuera de la Web?|Telecomunicaciones |
 
+<br>
+
 ---
+<br>
+
 # <b>Week Challenges "Wendnesday"</b>
+
 
 ## <b>Ejercicios de Apredendizaje</b>
 
@@ -80,5 +85,38 @@ La arquitectura cliente-servidor es un modelo de diseño de software. Acá, las 
 |3. ¿El término API solo es aplicable a la comunicación de programas a través de Internet?|No, de hecho se utiliza en casi todos los aspectos de la vida diaria, hacemos uso de ella sin darnos cuenta.|
 |4. ¿Por qué es importante la comunicación estructurada entre dos programas?|Para tener una perfecta organizacion de la informacion y tambien para tener una mayor seguriad en el momento de navegar en la web. |
 |° ¿Los humanos usamos API cuando nos comunicamos sin tecnología?|Si, cuando hacemos alguna solicitud de algun servicio, interactuamos con un mediador que nos proporciona informacion referente a lo que solicitamos.|
-|5. ¿Es una API solo otro programa o un estándar?||
-|6. ¿Conoces alguna API? ¿Puede enumerar al menos 5 ejemplos de API?||
+|5. ¿Es una API solo otro programa o un estándar?|Es un programa estandarizado, porque obedece una serie de protocolos para que se identifique como una autentica API|
+
+6. ¿Conoces alguna API?
+Si, las que usa Googe para sus busquedas  
+
+ ¿Puede enumerar al menos 5 ejemplos de API?
+- 1. Skyscanner Flight Search
+
+Su uso es para, busqueda de viajes y hoteles.
+- 2. Open Weather Map
+
+Usado para pronosticos del clima.
+- 3. API-FOOTBALL
+
+Usada para la busqueda de informacion de del football.
+- 4. The Cocktail DB
+
+Te permite buscar cocteles por: categoría, tipo de vaso
+- 5. REST Countries v1
+
+Es una API RESTful que te provee de datos sobre todos los países del mundo
+
+
+<br>
+
+
+---
+## <b>De JSON a REST</b>
+
+Ahora que sabe un poco mejor qué es una API, es hora de conocer
+una de las formas más populares de crear una API para aplicaciones web, las API REST.
+
+<br>
+
+1. <b> ¿Qué es HTTP? </b>

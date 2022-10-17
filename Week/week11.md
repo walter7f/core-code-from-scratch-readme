@@ -167,3 +167,20 @@ Los Usamos para manipular los recursos, simpre y cuando tengamos autirazacion.
 
 Aunque ambon cumple las mismas funciones para que interactuen el cliente y es servidor, http los hace contiguos mientras que rest divide por aparte cliente y servidor sin interumpir su comunicacion efectiva.
 
+---
+## <b>Clientes API REST</b>
+- ¿Postman solo funciona con API REST?
+
+ Postman está diseñada principalmente para probar las API del tipo REST. Posee una interfaz de usuario muy fácil y agradable. Ofrece una gran cantidad de funcionalidades, por ejemplo permite realizar cualquier tipo de llamada a la API (REST, SOAP o simplemente HTTP) e inspeccionar fácilmente las respuestas.
+
+- ¿Hay alguna alternativa a Postman?
+
+Si existen muchas alternativas a postman como por ejemplo;
+
+
+1. IBM API Connect
+2. Amazon API Gateway
+
+---
+
+## <b>Comprensión básica de Express.JS</b>

@@ -120,3 +120,50 @@ una de las formas más populares de crear una API para aplicaciones web, las API
 <br>
 
 1. <b> ¿Qué es HTTP? </b>
+
+HTTP significa Protocolo de transferencia de hipertexto. Es un conjunto de reglas definidas formalmente para la comunicación entre un cliente y un servidor. En otras palabras es el mediador entre la comunicacion entre el cliente web y el servidor 
+
+2. <b> ¿Qué es JSON? </b>
+
+JavaScript Object Notation (JSON) es un formato basado en texto estándar para representar datos estructurados en la sintaxis de objetos de JavaScript. Es comúnmente utilizado para transmitir datos en aplicaciones web 
+
+    -  ¿JSON es lo mismo que un objeto Javascript simple?
+    JSON sigue la misma sintaxis pero puede ser utilizado independientemente de JavaScript cosa que un objeto de "JS" no puede
+
+3. <b> ¿Qué es REST? </b>
+
+REST es una interfaz para conectar varios sistemas basados en el protocolo HTTP,la implementación del cliente y la implementación del servidor se pueden realizar de forma independiente sin que cada uno sepa sobre el otro. 
+
+- ¿Es REST un lenguaje de programación, un marco, una tecnología o un patrón de arquitectura?
+
+Es un estilo arquitectónico para proporcionar estándares entre sistemas informáticos en la web
+
+4. <b> ¿Qué es un recurso en REST? </b>
+
+ Un recurso se puede considerar como una entidad que representa un concepto de negocio que puede ser accedido públicamente.
+
+-  ¿Qué es un identificador de recursos?
+
+Es un sistema global que condensa la Dirección (URL) y el nombre (URN) del recurso para identificarlo dentro de la red y de esta forma tener mayor efectividad en su recuperación.
+
+5. <b> ¿Qué es un método HTTP? </b>
+
+Los protocolo HTTP define ocho "verbos" mediante los cuales un cliente web puede solicitar recuperar, actualizar o administrar contenido en un recurso de servidor web. Estos ocho tipos de solicitudes HTTP se conocen como métodos de solicitud HTTP
+
+- ¿Qué métodos HTTP usa REST dentro de sus reglas de arquitectura?
+
+
+    - GET: recupera un recurso específico (por id) o una colección de recursos
+    - POST: crea un nuevo recurso
+    - PUT: actualiza un recurso específico (por id)
+    - ELIMINAR: eliminar un recurso específico por id.
+    -   PATCH realiza una actualización parcial de un recurso.
+
+- ¿Por qué usamos métodos HTTP en REST y cómo se relacionan con los recursos?
+
+Los Usamos para manipular los recursos, simpre y cuando tengamos autirazacion. 
+
+6. <b> ¿Es REST lo mismo que HTTP? </b>
+
+Aunque ambon cumple las mismas funciones para que interactuen el cliente y es servidor, http los hace contiguos mientras que rest divide por aparte cliente y servidor sin interumpir su comunicacion efectiva.
+
